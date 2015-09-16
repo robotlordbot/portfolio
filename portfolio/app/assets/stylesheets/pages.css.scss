@@ -1,0 +1,119 @@
+// Place all the styles related to the Pages controller here.
+// They will automatically be included in application.css.
+// You can use Sass (SCSS) here: http://sass-lang.com/
+.header {
+  background-color: #000;
+  min-height: 80px;
+}
+
+.header img {
+  margin: 15px 0 0 0; 
+}
+
+.header h1 {
+  text-align: center;
+  font-size: 40px;
+  color: #1A77FF;
+}
+
+.menu {
+  background: #152230;
+  min-height: 40px;
+}
+
+.menu ul.nav{
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.menu ul.nav li {
+  display: inline-block;
+  height: 40px;
+  line-height: 40px;
+  margin: 0;
+  padding: 0 20px;
+  text-align: center;
+}
+
+.menu ul.nav li:hover, .menu ul.nav li.active {
+  background: #1A77FF;
+}
+
+.menu ul.nav li a {
+  color: #fff; 
+  margin: 0; 
+  padding: 0; } 
+
+.menu ul.nav li a:hover {
+  background: transparent; 
+}
+
+.main {
+  background: url("http://i.imgur.com/Jc43Ikj.jpg") no-repeat center center;
+  background-size: cover;
+  height: 600px;
+}
+
+.main h2 {
+	font-size: 40px;
+  color: #1A77FF;
+  padding-top: 80px;
+}
+
+.main .btn {
+	background-color: #aaaaaa;
+  font-size: 25px;
+  color: #1A77FF;
+  text-decoration: none;
+	margin: 20px 0 0 20px;
+}
+
+.main .btn:hover {
+	background: #000000;
+	cursor: pointer; 
+	transition: background .5s;  
+}
+  
+
+.footer {
+	background-color: #AAAAAA;
+	height: 90px;
+  text-align: right;
+  width:100%;
+}
+
+.footer .social_media {
+	margin: 15px 0;
+	width: 100%
+}
+
+.social_media li {
+	display: inline-block;
+	height: 24px;
+	margin: 0 0 0 10px;
+	text-align: left;
+	text-indent: -9999px;
+	width: 24px;
+}
+
+.social_media li a {
+	display: block;
+  height:24px;
+  width:24px;
+}
+
+.github {
+	background-image: url(http://i.imgur.com/ecBV7F9.png);
+	background-position:center center
+}
+
+.linkedin {
+	background-image: url(http://i.imgur.com/WoZW88t.png);
+	background-position:center center
+}
+
+.twitter {
+	background-image: url(http://i.imgur.com/vV8qiJY.png);
+	background-position:center center
+}
